@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<menu tools:context="info.androidhive.recyclerviewsearch.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:icon="@drawable/facebook"
+        android:id="@+id/action_star"/>
+
+
+
+</menu>

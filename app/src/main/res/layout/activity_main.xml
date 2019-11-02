@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".MainActivity">
+
+
+<!--
+<RelativeLayout
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_alignParentTop="true">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#BD0505"
+        android:layout_centerHorizontal="true"
+        android:text="All Social Site"/>
+
+
+
+
+
+</RelativeLayout>
+
+-->
+
+    <!--
+
+
+    <RelativeLayout
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="false"
+            android:layout_alignParentBottom="false"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+
+
+        <FrameLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center"
+          >
+
+
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+
+-->
+
+
+
+
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center"
+        android:id="@+id/griview"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8945974013998263/8804585347">
+
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
+
+

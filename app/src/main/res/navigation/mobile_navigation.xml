@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_privacy_and_policy"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.privacyAndPolicy.PrivacyPolicyFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_privacy_policy" />
+
+    <fragment
+        android:id="@+id/nav_rate_us"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.rateUs.RateUsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_rate_us" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.allsocialsite.bd.navigationDrawer.ui.more.MoreFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_more" />
+</navigation>
